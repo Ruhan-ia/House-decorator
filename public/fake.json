@@ -1,0 +1,178 @@
+[
+    {
+      "id": 1,
+      "name": "Modern Art Wall Clock",
+      "price": 49.99,
+      "rating": 4.5,
+      "image": "https://i.ibb.co/98vgjTz/spacejoy-ff-Fndd-UEa-L4-unsplash.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Wooden Photo Frame",
+      "price": 24.99,
+      "rating": 4.7,
+      "image": "https://i.ibb.co/X5zQ9y2/spacejoy-h-Ww-P4-LTGEQA-unsplash.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Decorative Vase",
+      "price": 35.00,
+      "rating": 4.3,
+      "image": "https://i.ibb.co/2FmV45n/spacejoy-io5-Tvjh7v-Cc-unsplash.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Table Lamp",
+      "price": 59.99,
+      "rating": 4.8,
+      "image": "https://i.ibb.co/Npm2G9g/spacejoy-Tb-Wzz-Daqg-RE-unsplash.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Wall Art Painting",
+      "price": 129.99,
+      "rating": 4.9,
+      "image": "https://i.ibb.co/52FJbXb/spacejoy-Xpbt-Qfr9-Skg-unsplash.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Ceramic Plant Pot",
+      "price": 19.99,
+      "rating": 4.6,
+      "image": "https://i.ibb.co/JQZ3FmY/toa-heftiba-FV3-GCon-VSss-unsplash.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Throw Pillow",
+      "price": 14.99,
+      "rating": 4.4,
+      "image": "https://i.ibb.co/X4cp845/toa-heftiba-m7r1-BVo-WTAk-unsplash.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Wool Area Rug",
+      "price": 89.99,
+      "rating": 4.2,
+      "image": "hhttps://i.ibb.co/Hhbr147/toa-heftiba-TWOnvtstme-U-unsplash.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Decorative Candles",
+      "price": 22.99,
+      "rating": 4.5,
+      "image": "https://i.ibb.co/T8PBf4z/3d-room-interior-with-classic-design-furniture-1.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Floating Shelves",
+      "price": 49.99,
+      "rating": 4.7,
+      "image": "https://i.ibb.co/gRPy8ND/alberto-castillo-q-mx4m-Sk-K9zeo-unsplash.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Bamboo Room Divider",
+      "price": 149.99,
+      "rating": 4.8,
+      "image": "https://i.ibb.co/xSvBfqj/hutomo-abrianto-X5-BWooe-O4-Cw-unsplash.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Vintage Mirror",
+      "price": 79.99,
+      "rating": 4.6,
+      "image": "https://i.ibb.co/W0fYFdj/minh-pham-Ot-XADk-Uh3-I-unsplash.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Decorative Throw Blanket",
+      "price": 39.99,
+      "rating": 4.4,
+      "image": "https://i.ibb.co/N3SJbj7/modern-hotel-room-with-illuminated-pictures.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Wall Mounted Coat Rack",
+      "price": 29.99,
+      "rating": 4.3,
+      "image": "https://i.ibb.co/8mcL9rQ/office-room.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Glass Terrarium",
+      "price": 59.99,
+      "rating": 4.7,
+      "image": "https://i.ibb.co/RTnwChc/roberto-nickson-tle-CJi-DOri0-unsplash.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Decorative Wall Hooks",
+      "price": 19.99,
+      "rating": 4.2,
+      "image": "https://i.ibb.co/K6y2vnK/spacejoy-3z-61bnb-Fh-M-unsplash.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Hanging Pendant Light",
+      "price": 69.99,
+      "rating": 4.8,
+      "image": "https://i.ibb.co/W0fYFdj/minh-pham-Ot-XADk-Uh3-I-unsplash.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Fabric Storage Bin",
+      "price": 24.99,
+      "rating": 4.5,
+      "image": "https://i.ibb.co/sFL9kgM/jason-briscoe-UV81-E0o-XXWQ-unsplash.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Macrame Wall Hanging",
+      "price": 34.99,
+      "rating": 4.6,
+      "image": "https://i.ibb.co/cyRgz9W/linh-le-gi-P0e750-Dr8-unsplash.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Scented Diffuser",
+      "price": 29.99,
+      "rating": 4.7,
+      "image": "https://i.ibb.co/M9Q9mTf/pic7.png"
+    },
+    {
+      "id": 21,
+      "name": "Canvas Wall Art",
+      "price": 79.99,
+      "rating": 4.9,
+      "image": "https://i.ibb.co/xMr4fKd/pic9.png"
+    },
+    {
+      "id": 22,
+      "name": "Decorative Lantern",
+      "price": 44.99,
+      "rating": 4.3,
+      "image": "https://i.ibb.co/R3SR4Yz/pic5.jpg"
+    },
+    {
+      "id": 23,
+      "name": "Ceramic Tableware Set",
+      "price": 99.99,
+      "rating": 4.8,
+      "image": "https://i.ibb.co/CVmr3PW/pic4.png"
+    },
+    {
+      "id": 24,
+      "name": "Geometric Wall Shelf",
+      "price": 59.99,
+      "rating": 4.7,
+      "image": "https://i.ibb.co/K6D2fgw/pic3.png"
+    },
+    {
+      "id": 25,
+      "name": "Artificial Succulent Set",
+      "price": 24.99,
+      "rating": 4.5,
+      "image": "https://i.ibb.co/pyyhLDZ/mpic6.png"
+    }
+  ]
+  
