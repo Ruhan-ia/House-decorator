@@ -1,7 +1,19 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
+import { AuthContext } from "../../Provider/AuthProvider";
+import useCart from "../../Hooks/useCart";
 
 const Navbar = () => {
+  const { user, logOut } = useContext(AuthContext);
+  const [cart] = useCart();
+  const handleLogOut = () => {
+    logOut()
+      .then((result) => {
+        const loggedUser = result.user;
+        console.log(loggedUser);
+      })
+      .catch(() => {});
+  };
   return (
     <div className="navbar bg-base-100 z-10 fixed ">
       <div className="navbar-start">
@@ -27,16 +39,24 @@ const Navbar = () => {
             className="menu menu-md dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-72 bg-gradient-to-r from-cyan-300 to-pink-300"
           >
             <li>
-            <Link>item1</Link>
+            <Link to='/'>Home</Link>
 
             </li>
             <li>
-            <Link>item2</Link>
+            <Link to='dashBoard/profile'>Dashboard
+            <span className="badge badge-secondary">
+                  +{cart?.length || 0}
+                </span>
+            </Link>
 
              
             </li>
             <li>
-            <Link>item3</Link>
+            <Link to='/dashBoard/cart'>Cart
+            <span className="badge badge-secondary">
+                  +{cart?.length || 0}
+                </span>
+            </Link>
 
             </li>
           </ul>
@@ -46,18 +66,47 @@ const Navbar = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li className="font-bold   text-green-700 border-b-4 border-b-green-700">
-          <Link>item1</Link>
+          <Link to='/'>Home</Link>
           </li>
           <li>
-           <Link>item2</Link>
+           <Link to='dashBoard/profile'>Dashboard
+           <span className="badge badge-secondary">
+                  +{cart?.length || 0}
+                </span></Link>
           </li>
           <li>
-          <Link>item3</Link>
+          <Link to="dashBoard/cart">Cart
+          <span className="badge badge-secondary">
+                  +{cart?.length || 0}
+                </span></Link>
           </li>
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Button</a>
+      {user &&  <div className="avatar items-center">
+    <div className="w-12 rounded-full">
+      <img src={user.photoURL}/>
+    </div>
+  </div>}
+  {user ? (
+          <>
+            <button
+              onClick={handleLogOut}
+              className="btn btn-xl hover:bg-black hover:text-white rounded-full  "
+            >
+              LogOut
+            </button>
+          </>
+        ) : (
+          <>
+            <Link
+              to="/login"
+              className="btn btn-xl  hover:bg-black hover:text-white rounded-full "
+            >
+              Login
+            </Link>
+          </>
+        )}
       </div>
     </div>
   );

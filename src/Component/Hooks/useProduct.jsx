@@ -3,9 +3,9 @@ import React from 'react';
 
 const useProduct = () => {
     const {refetch, data: products = []} = useQuery({
-        queryKey:[ 'toy' ],
+        queryKey:[ 'product' ],
         queryFn:async () =>{
-            const res = await fetch('http://localhost:5000/products')
+            const res = await fetch('https://home-decoration-tool-server.vercel.app/products')
             return res.json()
         }
 

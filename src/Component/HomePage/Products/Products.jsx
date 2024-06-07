@@ -1,10 +1,9 @@
-import { key } from "localforage";
 import useProduct from "../../Hooks/useProduct";
 import Product from "./Product";
 
 const Products = () => {
 
-    const [products, refetch] =useProduct();
+    const [products, ] =useProduct();
     
   return (
     
